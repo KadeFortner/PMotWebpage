@@ -1,0 +1,50 @@
+
+
+
+
+.container{
+  overflow:hidden;
+  background-color: green;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.menu {
+  height: 150px;
+  background-color: lightslategrey;
+  text-align: center;
+  font-family: thunderstorm;
+  color: pink;
+  font-size: 100px;
+  margin-top: 0;
+
+
+}
+
+.sidebar {
+  float: left;
+  width: 125px;
+  height: 540px;
+  background-color: lightblue;
+
+}
+
+.content {
+  font-family: desdemona;
+  float: left;
+  width: 725px;
+  height: 500px;
+  background-color: white;
+  padding: 20px;
+  font-color: white;
+}
+
+.footer {
+  height: 150px;
+  overflow: hidden;
+  background-color: pink;
+}
+
+p{
+  /*  margin-bottom: 20px;*/
+}
