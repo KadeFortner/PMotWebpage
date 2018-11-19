@@ -1,4 +1,10 @@
+/* CSS document */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   background-image: url("pmotbackground2.jpg");
@@ -36,7 +42,7 @@ p{
 }
 
 .content {
-  font-family: desdemona;
+  font-family: 'Desdemona', arial;
   float: left;
   width: 725px;
   height: 500px;
