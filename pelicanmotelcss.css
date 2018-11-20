@@ -1,4 +1,12 @@
-/* CSS document */
+
+
+body {
+  display: flex;
+  grid-template-columns: auto auto auto;
+  background-image: url("pmotbackground2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 
 * {
   margin: 0;
@@ -6,53 +14,50 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("pmotbackground2.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/*
-p{
-    margin-bottom: 20px;
-}
-*/
-
-.container{
-  overflow:hidden;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.menu {
-  height: 130px;
-  background-color: rgba(7, 7, 8, 0.3); /* Green */
-  text-align: center;
-  font-family: thunderstorm.otf;
-  color: pink;
+.header {
+  display: flex;
+  justify-content: left;
+  background-color: #ff0aff; /* Pink */
+  font-family: Thunderstorm;
   font-size: 100px;
+
+  width: 100%;
+  padding-top: 0;
+
+  align-self: center;
+
+}
+
+.header_item {
+  margin-top: 15px;
 }
 
 .sidebar {
-  float: left;
-  width: 125px;
-  height: 540px;
+  align-self: left;
+  top: 500px;
+  left: 0;
+  border: 3px solid white;
   background-color: rgba(227, 42, 45, 0.56); /* Red */
 
 }
 
 .content {
   font-family: 'Desdemona', arial;
-  float: left;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  margin-left: auto;
   width: 725px;
   height: 500px;
   background-color: rgba(42, 190, 227, 0.43); /* Blue */
   padding: 20px;
-  font-color: white;
+  color: white;
 }
 
 .footer {
-  height: 150px;
-  overflow: hidden;
+  position: absolute;
+  top: 1000px;
+  left: 0;
+  right: 0;
   background-color: rgba(212, 227, 42, 0.43); /* Yellow */
 }
